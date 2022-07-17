@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1000px) {
+    *{
+        box-sizing: border-box;
+    }
+    .formbox{
+        height: 100vh;
+        padding-top: 50px;
+    }
+    
+}

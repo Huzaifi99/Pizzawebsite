@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1100px) {
+    #sponsors{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+    *{
+        box-sizing: border-box;
+    }
+    
+    .spImage{
+        margin: 78px 0px;
+    }
+    #sponsorsSection {
+        height: 178vh;
+        
+    }
+    
+}
+
+
+@media only screen and (max-width: 1000px) {
+    
+    #questions {   
+        height: 527px;
+    }
+    
+}

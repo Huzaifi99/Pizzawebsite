@@ -1,0 +1,65 @@
+/* Question section */
+#questions{
+    background-color: #d8d8d8;
+    padding: 0px 21px;
+    height: 505px;
+}
+#questions h2{
+    text-align: center;
+    padding-top: 18px;
+    font-size: 34px;
+    text-decoration: underline;
+    color: #801910;
+
+}
+.box{
+    color: #801910;
+    padding: 8px;
+}
+#divbtn{
+    display: flex;
+    justify-content: center;
+}
+
+#btn{   
+    padding: 8px 16px;
+    /* border: 2px solid goldenrod; */
+    background: #3c3c3c;
+    border:none;
+    color: goldenrod;
+    border-radius: 11px;
+    outline: none;
+    cursor: pointer;
+    margin: 20px;
+}
+#btn:hover{
+    background: #000000;
+    
+}
+
+
+/* Sponsor section */
+#sponsorsSection{
+    height: 300px;
+    background-color: #ffe4a0;
+    padding-top: 14px;
+}
+#sponsorsSection 
+h2{
+    text-align: center;
+    padding-top: 18px;
+    font-size: 34px;
+    text-decoration: underline;
+    color: #801910;
+
+}
+#sponsors{
+    display: flex;
+   justify-content: center;
+   margin-top: 33px;
+}
+
+.spImage{
+    height: 120px;
+    margin: 20px;
+}

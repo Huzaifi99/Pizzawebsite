@@ -1,0 +1,51 @@
+extends base.pug
+
+block scripts
+  script(src='/static/About/about.js')          
+  script(script defer="defer" src='/static/Home/homeresp.js') 
+//- the defer command will first load DOM files and then execute JS  
+
+block style 
+    style
+      include ../static/Home/style.css
+      include ../static/About/about.css
+      include ../static/About/aboutm.css
+      include ../static/Home/stylem.css 
+
+block content
+    section#questions 
+        h2 #Frequently asked Questons !
+        div#toggle
+            
+            div.box
+                div.qus Qus#1: This is qus ans sec
+                div.ans Ans: This is qus ans sec
+            div.box
+                div.qus Qus#2: This is qus ans sec
+                div.ans Ans: This is qus ans sec
+            div.box
+                div.qus Qus#3: This is qus ans sec
+                div.ans Ans: This is qus ans sec
+            div.box
+                div.qus Qus#4: This is qus ans sec
+                div.ans Ans: This is qus ans sec
+            div.box
+                div.qus Qus#5: This is qus ans sec
+                div.ans Ans: This is qus ans sec
+            div.box
+                div.qus Qus#6: This is qus ans sec
+                div.ans Ans: This is qus ans sec
+            div.box
+                div.qus Qus#7: This is qus ans sec
+                div.ans Ans: This is qus ans sec
+        div#divbtn
+            <button id="btn" onclick="toggleHide()">Show/Hide</button> 
+
+    section#sponsorsSection
+        h2 #Our Sponsors !
+        div#msponsors
+            div#sponsors
+                img(src= "/static/img/apple.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/hp.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/microsoft.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/skype.jpg", alt= "Sponsor Image", class= "spImage")        

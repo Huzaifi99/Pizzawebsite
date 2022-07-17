@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');     
+     
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+/* 1) navbar */
+.navbar{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7f6262;
+  
+    
+}
+#logo img{
+    height: 90px;
+    margin-top: 8px;
+}
+
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar ul li{
+    list-style: none;
+        padding: 8px 25px;
+}
+.navbar ul a{
+    color: #f8b321;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.navbar ul a:hover{
+    color: blanchedalmond;
+    text-decoration: underline;
+}
+#boxes div{
+    background-color: black;
+}
+/* Hamburger */
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 24px;
+    top: 24px;
+}
+.line{
+    width: 33px;
+    background-color:  #f8b321;
+    height: 4px;
+    margin: 5px 3px;
+}
+/* 2) intro */
+#intro{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: beige; */
+    height: 340px;
+    align-items: center;
+    
+}
+
+#intro::before{
+    content: "";
+    position: absolute;
+    background: url('../static/img/bg.jfif') no-repeat center center/cover;
+    height: 62%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+.text{
+  margin-top: 56px;
+  color: #801910;
+  font-family: 'Prompt', sans-serif;
+}
+#large{
+    font-size: 38px;
+}
+#small{
+    margin-top: 13px;
+}
+h2{
+    text-align: center;
+}
+/* 3) Body  */
+#body{
+    background: #efefef;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0px;
+}
+
+.card{
+    
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+}
+.serve{
+    height: 300px;
+    width: 400px;
+    border-radius: 26px;
+    border: 2px solid #f8b321;
+}
+.sechead{
+    text-align: center;
+    padding-top: 18px;
+    font-size: 34px;
+    text-decoration: underline;
+    color: #801910;
+}
+/* 4) footer */
+#footer{
+    height: 40px;
+    background-color:  #801910;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    
+}

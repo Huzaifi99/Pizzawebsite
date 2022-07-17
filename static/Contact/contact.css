@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');   
+h1{
+    text-align: center;
+    margin: 12px 0px;    
+    color: #801910;
+    text-decoration: underline;
+   
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.myInput{
+  
+    text-align: center;
+    padding: 4px 5px;
+    margin: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 3px solid #801910;
+    outline: none;
+    width: 36vw;
+}
+.btn{
+    padding: 8px 16px;
+    /* border: 2px solid goldenrod; */
+    border: none;
+    background: #3c3c3c;
+    color: goldenrod;
+    border-radius: 11px;
+    outline: none;
+    cursor: pointer;
+    margin: 20px;
+}
+.btn:hover{
+    background: #000000;
+    
+}
+.formbox{
+   
+    min-height: 81vh;
+    display: flex;
+    
+    flex-direction: column;
+}

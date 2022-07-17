@@ -1,0 +1,51 @@
+doctype html
+html
+  head
+    title Pizza club
+    style
+      include ../static/Home/style.css
+body
+    nav#navbar
+        div#logo
+            img(src="/static/img/logo.png")
+            
+        ul
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#intro 
+        div.text
+            div#large 
+                h1 Welcome to PIZZA HUT! 
+            div#small 
+                h2 #The quality and the taste you want
+
+    section#body
+        h2.sechead Items We Serve !
+        div.container
+            div.card
+                img.serve(src="/static/img/pizza.webp")
+            
+                
+            div.card
+                img.serve(src="/static/img/burger.jpg")
+           
+
+        div.container
+            div.card
+                img.serve(src="/static/img/fries.jpg")
+            
+
+            div.card
+                img.serve(src="/static/img/drinks.png")
+            
+        footer#footer
+            | Copyright © 2022 PizzaHut.com | All rights reserved
+
+        script
+            include ../static/index.js 
+   
+        

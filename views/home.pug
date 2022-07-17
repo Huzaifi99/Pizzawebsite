@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts
+  script(script defer="defer" src='/static/Home/homeresp.js') 
+//- the defer command will first load DOM files and then execute JS
+
+block style 
+    style
+      include ../static/Home/style.css
+      include ../static/Home/stylem.css 
+
+
+block content
+    section#intro 
+        div.text
+            div#large 
+                h1 Welcome to PIZZA HUT !
+            div#small 
+                h2 # The Quality and the Taste you Want #
+
+    section#body
+        h2.sechead Items We Serve !
+        div#mcontainer
+            div.container
+                div.card
+                    img.serve(src="/static/img/pizza.webp")
+            
+                
+                div.card
+                    img.serve(src="/static/img/burger.jpg")
+           
+
+            div.container
+                div.card
+                    img.serve(src="/static/img/fries.jpg")
+            
+
+                div.card
+                    img.serve(src="/static/img/drinks.png")
+
